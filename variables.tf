@@ -7,7 +7,7 @@ validation {
 }
 
 validation {
-    condition = var.baseline_tags.cost_center >= 100 && var.baseline_tags.cost_center >= 999999
+    condition = var.baseline_tags.cost_center >= 100 && var.baseline_tags.cost_center <= 999999
     error_message = "The value for baseline_tags.cost_center must be between 100 and 999999"
 }
 
