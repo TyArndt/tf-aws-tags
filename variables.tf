@@ -17,7 +17,7 @@ validation {
 }
 
 validation {
-    condition = length(var.baseline_tags.team) <= 3 && length(var.baseline_tags.team) <= 6 
+    condition = length(var.baseline_tags.team) <= 3 && length(var.baseline_tags.team) >= 6 
     error_message = "The value for baseline_tags.team must be atleast 3 characters long but not longer than 6"
 }
 
