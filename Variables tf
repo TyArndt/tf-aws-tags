@@ -1,3 +1,0 @@
-variable "baseline_tags" {
-type = map(any)
-}
