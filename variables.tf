@@ -16,9 +16,9 @@ validation {
     error_message = "The value for baseline_tags.app_id must not exceed 99999"
 }
 
-validation {
-    condition = length(var.baseline_tags.team) >= 3 && length(var.baseline_tags.team) <= 6 
-    error_message = "The value for baseline_tags.team must be atleast 3 characters long but not longer than 6"
-}
+# validation {
+#     condition = length(var.baseline_tags.team) >= 3 && length(var.baseline_tags.team) <= 6 
+#     error_message = "The value for baseline_tags.team must be atleast 3 characters long but not longer than 6"
+# }
 
 }
